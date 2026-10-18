@@ -1,0 +1,11 @@
+{
+  "condition": "flip",
+  "seed": 17,
+  "epochs": 5,
+  "batch_size": 128,
+  "learning_rate": 0.001,
+  "optimizer": "Adam",
+  "architecture": "SmallCNN",
+  "augmentation": "random_horizontal_flip(p=0.5)",
+  "preprocessing": "to_tensor,scale_[0,1]"
+}

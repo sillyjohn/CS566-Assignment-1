@@ -1,0 +1,16 @@
+{
+  "run_id": "final_test",
+  "selected_run": "baseline_s17",
+  "selected_checkpoint_sha256": "ede431ca09e0ce94db99516b7fae8aad38e44225dccbb8f7ac66a5f417968535",
+  "test_manifest_sha256": "aa7be1277ba8017b5f01cd0bf9515d5c937b53759df256dc83ee73e71cd69e28",
+  "evaluation_source_partition": "test",
+  "evaluation_ids_sha256": "9db79d0fbb7ec4f2bd769af4292f2ca4f5477ae6a525423e78c77bb5b981abd7",
+  "evaluation_count": 2000,
+  "device": "cpu",
+  "python_version": "3.13.16",
+  "torch_version": "2.14.0",
+  "torchvision_version": "0.29.0",
+  "elapsed_seconds": 0.1992,
+  "status": "completed",
+  "error": null
+}

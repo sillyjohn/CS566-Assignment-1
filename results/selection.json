@@ -1,0 +1,13 @@
+{
+  "status": "completed",
+  "validation_means": {
+    "baseline": 0.84775,
+    "flip": 0.83565
+  },
+  "selection_rule": "mean validation accuracy across seeds 17 and 29; tie breaks to baseline; fixed seed 17 checkpoint",
+  "selected_condition": "baseline",
+  "selected_seed": 17,
+  "selected_run_id": "baseline_s17",
+  "selected_checkpoint_sha256": "ede431ca09e0ce94db99516b7fae8aad38e44225dccbb8f7ac66a5f417968535",
+  "timestamp": "2026-10-18T00:01:48.038576+00:00"
+}

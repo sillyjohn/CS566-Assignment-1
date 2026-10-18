@@ -1,0 +1,33 @@
+{
+  "run_id": "baseline_s17",
+  "condition": "baseline",
+  "seed": 17,
+  "epochs": 5,
+  "batch_size": 128,
+  "optimizer": "Adam",
+  "learning_rate": 0.001,
+  "architecture": "SmallCNN",
+  "augmentation": "none",
+  "preprocessing": "to_tensor,scale_[0,1]",
+  "train_manifest_sha256": "f0dd07729a67f7e73527793b9c5aeb2d3035c20f3ebf12ae415745a7385ff55b",
+  "validation_manifest_sha256": "eed64775f387d909ccdb929a7ffb6bf79f35c78218764dce0de40ccc4989d83a",
+  "source_sha256": {
+    "src/__init__.py": "30409c43a5ad7ff3bbf164625b67c284f4ef0063ea015f25b26bc473a32fd6c1",
+    "src/dataset.py": "3595bc173ee6a6b4623c42de899c164a9cd80163165f253c15c2b80dcbe9ea66",
+    "src/models.py": "2da06b9725c544b90ed968c50ce2ec45da95a4148545a92b5eb4578b1e57081f",
+    "src/training.py": "d207b51b1e000bd381b630b1b7f0cf5978d5890c9d000d60091504815d8d5150",
+    "src/utils.py": "780326061ac7c2282266e7eee1977d81e8c24864caf544b56db182954d7b18e2",
+    "run_experiment.py": "b2756cb68f2a93b4bde57e351481e6749238fedd93e520d71514ab9e6ec814bb"
+  },
+  "checkpoint_sha256": "ede431ca09e0ce94db99516b7fae8aad38e44225dccbb8f7ac66a5f417968535",
+  "evaluation_source_partition": "train",
+  "evaluation_ids_sha256": "e1d5affbee0fdc2020222a4679d0c01a0b3220a5a5667e61ef2ceb9ffda41541",
+  "evaluation_count": 10000,
+  "device": "cpu",
+  "python_version": "3.13.16",
+  "torch_version": "2.14.0",
+  "torchvision_version": "0.29.0",
+  "elapsed_seconds": 10.5052,
+  "status": "completed",
+  "error": null
+}

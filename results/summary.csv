@@ -1,0 +1,6 @@
+run_id,condition,seed,epochs,evaluation_split,n_examples,loss,accuracy,status
+baseline_s17,baseline,17,5,validation,10000,0.397077,0.853900,completed
+baseline_s29,baseline,29,5,validation,10000,0.435964,0.841600,completed
+flip_s17,flip,17,5,validation,10000,0.438146,0.841200,completed
+flip_s29,flip,29,5,validation,10000,0.474141,0.830100,completed
+final_test,baseline,17,,test,2000,0.439926,0.840000,completed
